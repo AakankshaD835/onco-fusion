@@ -51,7 +51,7 @@ And answers three clinical questions simultaneously:
 
 | # | Contribution | Why It Matters |
 |---|---|---|
-| **N1** | 4-modality cross-attention fusion | Most papers use 2 modalities; this is the first 4-modality TCGA-BRCA fusion with synthetic text |
+| **N1** | 4-modality cross-attention fusion | Most papers use 2 modalities; this uses 4-modality TCGA-BRCA fusion with synthetic text |
 | **N2** | Modality dropout training | Model stays accurate when modalities are missing at test time — clinically realistic |
 | **N3** | Image-genomics contrastive pretraining | InfoNCE loss on same-patient image+RNA pairs — unexplored combination in breast cancer |
 | **N4** | Multi-task: subtype + survival + grade | One shared encoder, three clinical predictions simultaneously |
