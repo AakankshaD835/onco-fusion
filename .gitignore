@@ -1,7 +1,8 @@
 .env
 data/
 GDSC_DATA/
-reports/
+reports/*
+!reports/clinical_wsi/
 __pycache__/
 *.pyc
 *.pth
@@ -10,4 +11,5 @@ __pycache__/
 .ipynb_checkpoints/
 notebooks/_tmp_*.ipynb
 *.pdf
+!reports/clinical_wsi/*.pdf
 PROJECT_PROPOSAL.md
