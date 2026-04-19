@@ -1,0 +1,11 @@
+.env
+data/
+GDSC_DATA/
+reports/
+__pycache__/
+*.pyc
+*.pth
+*.pt
+*.log
+.ipynb_checkpoints/
+notebooks/_tmp_*.ipynb
