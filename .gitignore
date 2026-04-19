@@ -9,3 +9,5 @@ __pycache__/
 *.log
 .ipynb_checkpoints/
 notebooks/_tmp_*.ipynb
+*.pdf
+PROJECT_PROPOSAL.md
